@@ -1,0 +1,18 @@
+{
+  "name": "Shri Sai Baba Temple, Bellandur",
+  "short_name": "Sai Baba Bellandur",
+  "description": "Daily aarti timings, sevas, and visitor information for Shri Sai Baba Temple, Bellandur, Bengaluru.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#faf7f2",
+  "theme_color": "#5c2e2e",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

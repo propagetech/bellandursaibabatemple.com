@@ -1,0 +1,101 @@
+/* responsive.css - Breakpoint adjustments */
+
+/* Navigation: desktop bar vs mobile drawer */
+@media (max-width: 63.99rem) {
+  .nav-primary {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+}
+
+@media (min-width: 64rem) {
+  .nav-primary {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none !important;
+  }
+}
+
+@media (max-width: 63.99rem) {
+  .site-logo__place {
+    display: none;
+  }
+
+  .hero {
+    min-height: clamp(22rem, 65vh, 32rem);
+  }
+
+  .quick-grid {
+    margin-top: calc(var(--space-6) * -1);
+  }
+
+  .split {
+    gap: var(--space-8);
+  }
+
+  .site-footer__grid {
+    gap: var(--space-8);
+  }
+}
+
+@media (max-width: 39.99rem) {
+  .timing-table th,
+  .timing-table td {
+    padding: var(--space-3);
+    font-size: var(--text-sm);
+  }
+
+  .btn-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-group .btn {
+    width: 100%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .price-table {
+    font-size: var(--text-sm);
+  }
+}
+
+@media (min-width: 48rem) {
+  .split {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .split--reverse .split__media {
+    order: 2;
+  }
+}
+
+@media (min-width: 40rem) {
+  .card-grid--2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-6);
+  }
+
+  .card-grid--3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-6);
+  }
+}

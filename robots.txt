@@ -1,5 +1,4 @@
-<html>
- <body>
-  User-agent: * Sitemap: http://www.bellandursaibabatemple.com
- </body>
-</html>
+User-agent: *
+Allow: /
+
+Sitemap: https://bellandursaibabatemple.com/sitemap.xml

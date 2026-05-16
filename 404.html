@@ -1,28 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<title>
-</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Quicksand:wght@300..700&amp;display=swap" rel="stylesheet"/><link href="css/main-4.css" rel="stylesheet"/>
-<link href="css/main-2.css" rel="stylesheet"/><link href="css/internal-styles.css" rel="stylesheet"/><style>/* Default fonts: Playfair Display for headings, Quicksand for body (change_default_fonts.py) */
-body, html, .viamagusPageSettings, .viamagusPageSettings .viamagus-container { font-family: 'Quicksand', sans-serif; }
-h1, h2, h3, h4, h5, h6,
-.viamagus-heading1, .viamagus-heading2, .viamagus-heading3, .viamagus-section-heading { font-family: 'Playfair Display', serif; }</style>
-<script o="" src="js/404.js" type="text/javascript">
-</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page not found | Shri Sai Baba Temple, Bellandur</title>
+  <meta name="description" content="The page you requested could not be found. Return to Shri Sai Baba Temple, Bellandur - darshan, timings, and visitor information." />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/components.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
+
 <body>
-<div class="container-fluid viamagus-errorpage">
-<h1 class="errorpage404">
-    404
-   </h1>
-<h2 class="errorpageheader">
-    Page Not Found
-   </h2>
-<a class="btn btn-large" href="home.html">
-    Return to homepage
-   </a>
-</div>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="site-logo" aria-label="Shri Sai Baba Temple, Bellandur - Home">
+        <img src="assets/images/logo.webp" alt="" width="48" height="48" />
+        <span class="site-logo__text">
+          <span class="site-logo__name">Shri Sai Baba Temple</span>
+          <span class="site-logo__place">Bellandur, Bengaluru</span>
+        </span>
+      </a>
+
+      <nav class="nav-primary" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="timings.html">Timings</a>
+        <a href="sevas.html">Sevas</a>
+        <a href="festivals.html">Festivals</a>
+        <a href="annadanam.html">Annadanam</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="visit.html" class="btn btn--primary nav-cta">Plan Visit</a>
+      </nav>
+
+      <button type="button" class="nav-toggle" data-nav-toggle aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-nav" data-mobile-nav id="mobile-nav" aria-hidden="true">
+    <div class="mobile-nav__backdrop" data-nav-backdrop></div>
+    <div class="mobile-nav__panel">
+      <button type="button" class="nav-toggle mobile-nav__close" data-nav-close aria-label="Close menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+      </button>
+      <nav aria-label="Mobile">
+        <ul class="mobile-nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="timings.html">Timings</a></li>
+          <li><a href="sevas.html">Sevas</a></li>
+          <li><a href="festivals.html">Festivals</a></li>
+          <li><a href="annadanam.html">Annadanam</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="visit.html">Visit Us</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="section section--leaf" aria-labelledby="not-found-heading">
+      <div class="container container--narrow text-center">
+        <p class="eyebrow">404</p>
+        <h1 id="not-found-heading">Page not found</h1>
+        <p class="lead">Om Sai Ram - the link you followed may be outdated or the address may have been mistyped. We could not find that page on our website.</p>
+        <p class="text-muted">You can return to the home page for darshan timings, directions, and temple information.</p>
+        <div class="btn-group" style="justify-content: center; margin-top: var(--space-8);">
+          <a href="index.html" class="btn btn--primary">Back to home</a>
+          <a href="visit.html" class="btn btn--secondary">Plan your visit</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__grid">
+        <div>
+          <a href="index.html" class="site-logo" style="color: var(--color-white); margin-bottom: var(--space-4);">
+            <img src="assets/images/logo.webp" alt="" width="48" height="48" />
+            <span class="site-logo__text">
+              <span class="site-logo__name" style="color: var(--color-white);">Shri Sai Baba Temple</span>
+              <span class="site-logo__place" style="color: rgba(255,255,255,0.7);">Bellandur, Bengaluru</span>
+            </span>
+          </a>
+          <p class="text-small" style="max-width: 20rem;">Om Sai Ram. A community temple for darshan, aarti, sevas, and Annadanam in Green Glen Layout.</p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="about.html">About Temple</a></li>
+            <li><a href="timings.html">Darshan &amp; Timings</a></li>
+            <li><a href="sevas.html">Sevas &amp; Offerings</a></li>
+            <li><a href="festivals.html">Festivals</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Community</h3>
+          <ul>
+            <li><a href="annadanam.html">Annadanam</a></li>
+            <li><a href="volunteer.html">Volunteer</a></li>
+            <li><a href="visit.html">Visit Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>109, Margosa Ave<br />Green Glen Layout<br />Bellandur, Karnataka 560103</li>
+            <li><a href="mailto:saibaba.bellandur@gmail.com">saibaba.bellandur@gmail.com</a></li>
+            <li><a href="timings.html">Aarti: 6:30 AM · 12 PM · 6:30 PM · 9 PM</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer__bottom">
+        <p class="mb-0">&copy; <span id="year">2026</span> Shri Sai Baba Temple, Bellandur. All rights reserved.</p>
+        <p class="mb-0"><a href="visit.html#privacy">Privacy note</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/navigation.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
+
 </html>
