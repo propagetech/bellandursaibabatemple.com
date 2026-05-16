@@ -6,7 +6,8 @@ var Viamagus_Website_Loader =  {
     _twitterLastPublishId:'',
     _ecomProductList:[],
 	_init : function(options){
-		this._sendSupportEmail();
+		// Contact form disabled: _sendSupportEmail() not used (email-only contact on static site)
+		// this._sendSupportEmail();
 		this._enableLazyloadImages({siteBuilder:false});
 		this._loadBlogPosts({siteBuilder:false});  
 	    this._loadGallery();
